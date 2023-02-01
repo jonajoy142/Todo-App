@@ -1,6 +1,6 @@
-import 'package:circular_check_box/circular_check_box.dart';
 import 'package:flutter/material.dart';
-
+// import 'package:circularbox/circularbox.dart';
+// import 'package:roundcheckbox/roundcheckbox.dart';
 
 class TodoItems extends StatefulWidget {
   const TodoItems({super.key});
@@ -14,19 +14,12 @@ class _TodoItemsState extends State<TodoItems> {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      title: Text("Go to gym",style: TextStyle(
-        decoration: (selected)?TextDecoration.lineThrough:null
-      ),),
-      leading: CircularCheckBox(
-        value: this.selected,
-        onChanged: (val) {
-          this.selected = !this.selected;
-        },
-        checkColor: Colors.black,
-        activeColor: Colors.yellow,
-        inactiveColor: Colors.grey,
-        disabledColor: Colors.yellow,
+      title: Text(
+        "Go to gym",
+        style: TextStyle(
+            decoration: (selected) ? TextDecoration.lineThrough : null),
       ),
+      leading: Text("data")
     );
   }
 }

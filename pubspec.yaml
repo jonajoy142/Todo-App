@@ -37,6 +37,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   font_awesome_flutter: ^10.3.0
   circular_check_box: ^1.0.4
+  circularbox: ^1.1.1+1
+  roundcheckbox: ^2.0.5
   # roundcheckbox: ^2.0.5
 
 dev_dependencies:

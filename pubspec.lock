@@ -33,6 +33,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.4"
+  circularbox:
+    dependency: "direct main"
+    description:
+      name: circularbox
+      sha256: "0be0fd933fb169e9b23b7f45b6ee71e5133fb7ad6cbb6be20636285f87a0ce53"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.1+1"
   clock:
     dependency: transitive
     description:
@@ -139,6 +147,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.8.2"
+  roundcheckbox:
+    dependency: "direct main"
+    description:
+      name: roundcheckbox
+      sha256: "5d6f607ed9d26fde0072af2545f56d84a6b6d2a45972b0c41f90c2d73224f339"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.5"
   sky_engine:
     dependency: transitive
     description: flutter
