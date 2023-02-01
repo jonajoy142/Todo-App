@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:todoapp/widgets/todolist.dart';
 
 class TaskScreen extends StatelessWidget {
   const TaskScreen({super.key});
@@ -40,15 +41,17 @@ class TaskScreen extends StatelessWidget {
                 ],
               ),
             ),
-          )
+          ),
+          Expanded(child: ListView.builder(itemBuilder: (context, index) {
+            return TodoItems();
+          }))
         ],
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.yellow,
-        onPressed: (){},
+        onPressed: () {},
         child: Icon(Icons.add),
       ),
-      
     );
   }
 }
